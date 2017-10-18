@@ -4,7 +4,7 @@ require('dotenv').config();
 new origami({
     server: {
         secret: process.env.SERVER_SECRET,
-        port: process.env.SERVER_PORT
+        port: process.env.PORT
     },
     store: {
         type: 'mongodb',
