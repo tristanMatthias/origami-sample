@@ -1,0 +1,21 @@
+{
+  "name": "sample-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "handlebars": "^4.0.10",
+    "origami-cms": "^0.0.5",
+    "origami-store-mongodb": "^0.0.2",
+    "origami-theme-snow": "^0.0.3",
+    "pug": "^2.0.0-rc.4",
+    "sass-css-stream": "^0.1.6"
+  },
+  "devDependencies": {}
+}
